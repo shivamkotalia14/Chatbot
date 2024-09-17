@@ -18,20 +18,15 @@ Follow these steps to set up the project on your local machine:
 git clone https://github.com/yourusername/chatbot-backend.git
 cd chatbot-backend
 
-```bash
 python -m venv venv
 
-```bash
 venv\Scripts\activate
 
-```bash
 pip install -r requirements.txt
 
-```bash
 cd src/neuspell
 pip install -e .
 pip install -r extras-requirements.txt
 
-```bash
 cd ../..
 python app.py
