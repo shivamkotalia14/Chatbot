@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ```bash
 cd src
-git clone git clone https://github.com/neuspell/neuspell
+git clone https://github.com/neuspell/neuspell
 cd neuspell
 pip install -e .
 pip install -r extras-requirements.txt
