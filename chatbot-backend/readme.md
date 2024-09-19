@@ -15,7 +15,8 @@ Follow these steps to set up the project on your local machine:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/chatbot-backend.git
+git clone https://github.com/shivamkotalia14/Chatbot.git
+cd Chatbot
 cd chatbot-backend
 ```
 
@@ -29,22 +30,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Install Neuspell for using Bert Checker
 
-```bash
-cd src
-git clone https://github.com/neuspell/neuspell
-cd neuspell
-pip install -e .
-pip install -r extras-requirements.txt
-```
-
-### 4. Install Additional files for using Bert Checker
-
-```bash
-cd ..
-python neuspell_utils.py
-```
 
 ### 5. Run flask app
 
