@@ -19,7 +19,7 @@ class LLM:
 
     template = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-    You are an expert at paraphrasing sentences so that they can be passed to a chatbot for aiding deaf and mute. Do not change meaning or move periods. Here is the sentence that you have to paraphrase {transcription}. 
+    You are an expert at paraphrasing sentences and fixing spelling mistakes so that they can be passed to a chatbot as a query for aiding deaf and mute. Do not change meaning or move periods. Just provide the updated sentence and nothing else. Here is the sentence that you have to paraphrase {transcription}.  
 
     Assistant:<|eot_id|><|start_header_id|>user<|end_header_id|><|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
 
